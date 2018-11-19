@@ -1,3 +1,53 @@
-li {
-    font-size: 24px;
+
+/* navbar */
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+/* .dropdown-toggle:after { 
+    content: none 
+} */
+
+/* /* contact */
+#contact-div {
+    /* background: #e8f4f8; */
+    background: #add8e6;
+}
+
+#contact-photo {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#contact-info {
+    background: #add8e6;
+    width: 100%;
+    padding: 200px 50px;
+}
+
+#contact-info a:hover {
+    text-decoration: none;
+}
+
+/* portfolio div -- ride side of page */
+/* .portfolio-div {
+
+} */
+
+.portfolio-card {
+    width: 18rem;
+    margin: 40px;
+}
+
+#website-div {
+    background: #adbce6;
+}
+
+#projects-div {
+    background: #ade6d8;
+}
+
+#design-div {
+    background: red;
 }
