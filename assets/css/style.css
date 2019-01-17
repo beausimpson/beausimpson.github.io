@@ -1,4 +1,9 @@
 
+/* body */
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 /* navbar */
 .dropdown:hover>.dropdown-menu {
     display: block;
@@ -12,22 +17,51 @@
 #contact-div {
     /* background: #e8f4f8; */
     background: #add8e6;
+    border: 20px solid #e8f4f8;
 }
 
 #contact-photo {
     width: 100%;
     display: block;
     margin: 0 auto;
+    margin-left: -15px;
 }
 
 #contact-info {
     background: #add8e6;
     width: 100%;
-    padding: 160px 50px;
+    padding-left: 50px;
+}
+
+#contact-info a {
+    color: #3a9fbf
 }
 
 #contact-info a:hover {
     text-decoration: none;
+    color: #adbce6;
+}
+
+#contact-info h1 {
+    font-family: 'Roboto Condensed:700', sans-serif;
+    color: #e8f4f8;
+    font-size: 13vw;
+}
+
+#contact-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-left: 10px;
+    border: 7px solid #adbce6;
+    width: 15vw;
+    background: #e8f4f8;
+    font-family: 'Roboto Condensed:700', sans-serif;
+    font-size: 1.5em;
+}
+
+#contact-box p {
+    color: #3a9fbf;
 }
 
 /* portfolio div -- ride side of page */
