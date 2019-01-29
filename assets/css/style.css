@@ -9,22 +9,23 @@ body {
     display: block;
 }
 
+#navbar-top {
+    padding-left: 30px;
+}
 /* .dropdown-toggle:after { 
     content: none 
 } */
 
 /* /* contact */
 #contact-div {
-    /* background: #e8f4f8; */
     background: #add8e6;
-    border: 20px solid #e8f4f8;
+    border: 30px solid #e8f4f8;
 }
 
 #contact-photo {
     width: 100%;
     display: block;
     margin: 0 auto;
-    margin-left: -15px;
 }
 
 #contact-info {
@@ -84,4 +85,22 @@ body {
 
 #design-div {
     background: #add8e6;
+}
+
+/* media queries */
+@media screen and (max-width: 768px) {
+    #contact-info {
+        padding-left: 25px;
+    }
+    #contact-info h1 {
+        padding-top: 20px;
+    }
+
+    #contact-info h3 {
+        font-size: 6vw;
+    }
+
+    #contact-box {
+        width: 100%;
+    }
 }
